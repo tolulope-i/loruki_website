@@ -2,7 +2,9 @@
 
 :root{
     --primary: #047aed;
-    --secondary: #1c3fa8;
+    --primary: #F43F5E;
+    --primary: #7C3AED;
+    --secondary:  #450fa3;
     --dark: #002240;
     --light: #f4f4f4;
     --success: #5cb85c;
@@ -10,7 +12,6 @@
 }
 
 /* reset */
-
 *{
   margin: 0;  
   padding: 0;
@@ -108,7 +109,6 @@ img{
     color: #333;
 }
 
-
 .bg-primary a,
 .btn-primary a,
 .bg-secondary a,
@@ -119,7 +119,6 @@ img{
 .btn-light a{
     color: #fff;
 }
-
 
 /* text colors */
 .text-primary{
@@ -134,9 +133,6 @@ img{
 .text-light{
     color: var(--light);
 }
-
-
-
 
 /* text sizes */
 .lead{
@@ -155,18 +151,12 @@ img{
     font-size: 4em;
 }
 
-
-
-
-
-
 .grid-3{
     grid-template-columns: repeat(3, 1fr);
 }
 .text-center{
     text-align: center;
 }
-
 
 /* alert */
 .alert{
@@ -219,7 +209,6 @@ img{
     margin: 4rem;
 }
 
-
 /* padding */
 .py-1{
     padding: 1rem 0;
@@ -261,15 +250,6 @@ code, pre{
     color: #fff;
     padding: 10px;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* navbar */
@@ -409,12 +389,10 @@ code, pre{
 
 }
 
-
 /* footer */
 .footer .social a{
     margin: 10px;
 }
-
 
 
 /* FEATURES */
@@ -442,8 +420,6 @@ code, pre{
 }
 
 
-
-
 /* DOCUMENTATION */
 .docs-head .grid i{
     font-size: 200px;
@@ -468,7 +444,6 @@ code, pre{
 .docs-main .grid a:hover{
     font-weight: bold;
 }
-
 
 
 /* ANIMATION */
@@ -504,7 +479,6 @@ code, pre{
         transform: translateY(0);
     }
 }
-
 
 
 /* media query for tablet */
@@ -553,15 +527,6 @@ code, pre{
         grid-column: 1;
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 /* media query for mobile phones */
